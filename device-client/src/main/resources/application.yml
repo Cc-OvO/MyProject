@@ -1,0 +1,10 @@
+server:
+  port: 8091
+
+spring:
+  application:
+    name: device-client
+
+ws:
+  server:
+    host: ws://${ws.host:localhost}:${ws.port:8000}/device-management-service/websocket
